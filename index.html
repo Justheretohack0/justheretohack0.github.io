@@ -4,11 +4,21 @@
   <meta charset="UTF-8">
   <title>Ether Embedded</title>
   <style>
-    html, body { height: 100%; margin:0; }
-    iframe { width: 100vw; height: 100vh; border:none;}
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden; /* Removes outer scrollbars */
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      overflow: hidden; /* Removes inner scrollbar for iframe */
+    }
   </style>
 </head>
 <body>
-  <iframe src="https://nksupermarket.github.io/Ether/"></iframe>
+  <iframe src="https://nksupermarket.github.io/Ether/" scrolling="no"></iframe>
 </body>
 </html>
